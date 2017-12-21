@@ -1,5 +1,7 @@
 # Django_REST_Framework
 
+For run : localhost/web
+
 ## What is REST framework?
 -> Web based architecture for data communication.
 
