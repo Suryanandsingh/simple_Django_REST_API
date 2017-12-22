@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<style>
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    margin-left: 100px;
+    width: 8%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+</style>
+<body>
+
+<h2>Login Form</h2>
+
+<form method="post">
+  <div class="container">
+      {% csrf_token %}
+      <!--{{ form.as_p }}-->
+    <label><b>Email</b></label>
+    <input type="text" placeholder="Enter username" name="username" required style="margin-left: 47px;">
+    <br>
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required style="margin-left: 20px;">
+
+    <div class="clearfix">
+      <!--<button type="button" class="cancelbtn">Cancel</button>-->
+      <button type="submit" class="signupbtn">Sign In</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
