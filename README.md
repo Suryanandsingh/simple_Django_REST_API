@@ -12,8 +12,8 @@ For run : localhost/web
    ### GET, PUT , POST and DELETE
    
    
-   ### GET
-   
+   GET
+   -
    To used to return the record or also called retrieve a resource.
    
    Here, In my project some resource are retrieve from database with also include Hyperlinked APIs and Pagination.
@@ -21,12 +21,12 @@ For run : localhost/web
  ![screenshot from 2017-12-22 11-58-02](https://user-images.githubusercontent.com/27296935/34287928-54f3a734-e710-11e7-838f-4fdb2fd65716.png)
 
 
-  ### PUT
-  
+  PUT
+  -
   Which can be update your resource.
   
-  ### DELETE
-  
+  DELETE
+  -
   You can delete your resource.
   
   In my project, you can also update and delete your resource.
@@ -34,8 +34,8 @@ For run : localhost/web
 ![screenshot from 2017-12-22 11-58-32](https://user-images.githubusercontent.com/27296935/34287942-656c21d6-e710-11e7-9935-a7df1c21360c.png)
 
   
-  ### POST
-  
+  POST
+  -
   which is create a resource.
   
   ![screenshot from 2017-12-22 12-08-55](https://user-images.githubusercontent.com/27296935/34288057-04d43d6c-e711-11e7-9e5c-030d3de902c0.png)
