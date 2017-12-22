@@ -16,9 +16,10 @@ For run : localhost/web
    
    To used to return the record or also called retrieve a resource.
    
-   Here, In my project some resource are retrieve from database.
+   Here, In my project some resource are retrieve from database with also include Hyperlinked APIs and Pagination.
    
-   ![screenshot from 2017-12-21 10-31-22](https://user-images.githubusercontent.com/27296935/34241626-dad46926-e63c-11e7-8858-362c8cff771d.png)
+ ![screenshot from 2017-12-22 11-58-02](https://user-images.githubusercontent.com/27296935/34287928-54f3a734-e710-11e7-838f-4fdb2fd65716.png)
+
 
   ### PUT
   
@@ -30,15 +31,25 @@ For run : localhost/web
   
   In my project, you can also update and delete your resource.
   
-  ![screenshot from 2017-12-21 10-30-53](https://user-images.githubusercontent.com/27296935/34241706-5ad099a6-e63d-11e7-8522-942fe06a379a.png)
+![screenshot from 2017-12-22 11-58-32](https://user-images.githubusercontent.com/27296935/34287942-656c21d6-e710-11e7-9935-a7df1c21360c.png)
+
   
   ### POST
   
   which is create a resource.
   
-  ![screenshot from 2017-12-21 10-31-28](https://user-images.githubusercontent.com/27296935/34242024-5d941bc0-e63f-11e7-8c18-6b70cd0abc21.png)
+  ![screenshot from 2017-12-22 12-08-55](https://user-images.githubusercontent.com/27296935/34288057-04d43d6c-e711-11e7-9e5c-030d3de902c0.png)
+
 
 
   NOTE
   - 
   Only those people can PUT, DELETE or POST resource who are logged in. If you are not logged in then you can only read the resource.
+  
+ Login
+ -
+ localhost/web/login
+ 
+ username - abc123
+ 
+ password - mnop@1234
